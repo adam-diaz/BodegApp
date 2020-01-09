@@ -10,6 +10,11 @@ import UIKit
 
 class OtherTVC: UITableViewCell {
 
-    
+    @IBOutlet weak var foodImage: UIImageView!
+    @IBOutlet weak var foodLabel: UILabel!
+    @IBOutlet weak var stepperValue: UILabel!
+    @IBOutlet weak var stepperControl: UIStepper!
 
+    
+    
 }

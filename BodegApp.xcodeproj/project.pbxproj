@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		500CAB5723C67F2300A86DC6 /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = 500CAB5623C67F2300A86DC6 /* Sandwich.swift */; };
 		50D63B8123C5224C006B079D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63B8023C5224C006B079D /* AppDelegate.swift */; };
 		50D63B8323C5224C006B079D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63B8223C5224C006B079D /* SceneDelegate.swift */; };
 		50D63B8823C5224C006B079D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D63B8623C5224C006B079D /* Main.storyboard */; };
@@ -21,16 +22,15 @@
 		50D63BA523C635F1006B079D /* FoodVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BA423C635F1006B079D /* FoodVC.swift */; };
 		50D63BA723C63600006B079D /* OtherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BA623C63600006B079D /* OtherVC.swift */; };
 		50D63BAB23C6389B006B079D /* FoodDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BAA23C6389B006B079D /* FoodDetailVC.swift */; };
-		50D63BAD23C638AB006B079D /* OtherDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BAC23C638AB006B079D /* OtherDetailVC.swift */; };
 		50D63BAF23C63EF9006B079D /* FoodTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BAE23C63EF9006B079D /* FoodTVC.swift */; };
 		50D63BB123C63F17006B079D /* OtherTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BB023C63F17006B079D /* OtherTVC.swift */; };
 		50D63BB423C63F85006B079D /* OrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BB323C63F85006B079D /* OrdersVC.swift */; };
 		50D63BB723C64D01006B079D /* SnackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BB623C64D01006B079D /* SnackVC.swift */; };
-		50D63BB923C64D67006B079D /* SnackDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BB823C64D67006B079D /* SnackDetailVC.swift */; };
 		50D63BBB23C66046006B079D /* SnackTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D63BBA23C66046006B079D /* SnackTVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		500CAB5623C67F2300A86DC6 /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
 		50D63B7D23C5224C006B079D /* BodegApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodegApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D63B8023C5224C006B079D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50D63B8223C5224C006B079D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,12 +47,10 @@
 		50D63BA423C635F1006B079D /* FoodVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodVC.swift; sourceTree = "<group>"; };
 		50D63BA623C63600006B079D /* OtherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherVC.swift; sourceTree = "<group>"; };
 		50D63BAA23C6389B006B079D /* FoodDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailVC.swift; sourceTree = "<group>"; };
-		50D63BAC23C638AB006B079D /* OtherDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherDetailVC.swift; sourceTree = "<group>"; };
 		50D63BAE23C63EF9006B079D /* FoodTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTVC.swift; sourceTree = "<group>"; };
 		50D63BB023C63F17006B079D /* OtherTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTVC.swift; sourceTree = "<group>"; };
 		50D63BB323C63F85006B079D /* OrdersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersVC.swift; sourceTree = "<group>"; };
 		50D63BB623C64D01006B079D /* SnackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackVC.swift; sourceTree = "<group>"; };
-		50D63BB823C64D67006B079D /* SnackDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackDetailVC.swift; sourceTree = "<group>"; };
 		50D63BBA23C66046006B079D /* SnackTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackTVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				50D63BA023C54001006B079D /* Bodega.swift */,
+				500CAB5623C67F2300A86DC6 /* Sandwich.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,7 +152,6 @@
 			children = (
 				50D63BA623C63600006B079D /* OtherVC.swift */,
 				50D63BB023C63F17006B079D /* OtherTVC.swift */,
-				50D63BAC23C638AB006B079D /* OtherDetailVC.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -171,7 +169,6 @@
 			children = (
 				50D63BB623C64D01006B079D /* SnackVC.swift */,
 				50D63BBA23C66046006B079D /* SnackTVC.swift */,
-				50D63BB823C64D67006B079D /* SnackDetailVC.swift */,
 			);
 			path = Snack;
 			sourceTree = "<group>";
@@ -247,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50D63BAD23C638AB006B079D /* OtherDetailVC.swift in Sources */,
 				50D63BB723C64D01006B079D /* SnackVC.swift in Sources */,
 				50D63BB423C63F85006B079D /* OrdersVC.swift in Sources */,
 				50D63B9623C5267D006B079D /* AppError.swift in Sources */,
@@ -255,6 +251,7 @@
 				50D63BA723C63600006B079D /* OtherVC.swift in Sources */,
 				50D63BA123C54001006B079D /* Bodega.swift in Sources */,
 				50D63B9823C52A54006B079D /* NetworkHelper.swift in Sources */,
+				500CAB5723C67F2300A86DC6 /* Sandwich.swift in Sources */,
 				50D63BA523C635F1006B079D /* FoodVC.swift in Sources */,
 				50D63B8123C5224C006B079D /* AppDelegate.swift in Sources */,
 				50D63BAF23C63EF9006B079D /* FoodTVC.swift in Sources */,
@@ -264,7 +261,6 @@
 				50D63BBB23C66046006B079D /* SnackTVC.swift in Sources */,
 				50D63BB123C63F17006B079D /* OtherTVC.swift in Sources */,
 				50D63B9A23C53311006B079D /* ImageHelper.swift in Sources */,
-				50D63BB923C64D67006B079D /* SnackDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

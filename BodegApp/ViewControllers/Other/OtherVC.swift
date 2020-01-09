@@ -11,6 +11,8 @@ import UIKit
 
 class OtherVC: UIViewController {
     
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

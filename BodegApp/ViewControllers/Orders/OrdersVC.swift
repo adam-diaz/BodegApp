@@ -11,6 +11,8 @@ import UIKit
 
 class OrdersVC: UIViewController {
     
+    @IBOutlet weak var imageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
